@@ -1,0 +1,5 @@
+sphnix
+sphnix-rtd-theme
+rst-to-myst[sphnix]
+myst-parser
+sphnix-autobuild
