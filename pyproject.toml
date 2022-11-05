@@ -4,5 +4,13 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "Purnananda", email = "purnanandahari@gmail.com"}]
 dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+doc = [
+    "sphinx",
+    "myst-parser",
+    "furo",
+    "nbsphnix",
+]

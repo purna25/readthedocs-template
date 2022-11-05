@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2022, Graziella'
+author = 'Purnananda'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser',
+    'sphinx.ext.autosectionlabel',
+    # 'nbsphnix',
 ]
 
 intersphinx_mapping = {

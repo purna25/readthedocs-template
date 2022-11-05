@@ -1,0 +1,5 @@
+sphinx
+sphinx-rtd-theme
+rst-to-myst[sphinx]
+myst-parser
+sphinx-autobuild
